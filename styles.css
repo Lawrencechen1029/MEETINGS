@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.cta-button, .back-button {
+    display: inline-block;
+    background: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.schedule th {
+    background: #007bff;
+    color: white;
+}
+
+.booking-form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
