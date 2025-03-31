@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>预订会议室</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>预订会议室</h1>
+        <a href="index.html" class="back-button">返回首页</a>
+    </header>
+
+    <main>
+        <section class="booking-form">
+            <h2>选择预订信息</h2>
+            <form id="bookingForm">
+                <label for="room">选择会议室：</label>
+                <select id="room">
+                    <option value="A">会议室 A</option>
+                    <option value="B">会议室 B</option>
+                </select>
+
+                <label for="date">选择日期：</label>
+                <input type="date" id="date" required>
+
+                <label for="time">选择时间：</label>
+                <select id="time">
+                    <!-- 通过 JavaScript 填充 -->
+                </select>
+
+                <label for="name">您的姓名：</label>
+                <input type="text" id="name" required>
+
+                <label for="contact">联系方式：</label>
+                <input type="text" id="contact" required>
+
+                <button type="submit">提交预订</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
